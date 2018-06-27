@@ -1,0 +1,29 @@
+// Button Component Stylesheet
+// ========================================
+.button {
+
+  &--primary {
+
+    &:hover {
+
+    }
+  }
+
+  &--secondary {
+
+    &:hover {
+
+    }
+  }
+
+  &--disabled {
+
+  }
+}
+
+.image__buttons {
+    display:block;
+    margin: auto;
+    width: 200px;
+    padding: 15px;
+}
