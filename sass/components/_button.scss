@@ -4,7 +4,7 @@
 .button {
 
   &--primary {
-      display:inline-block;
+      display:block;
       margin: auto;
       width: 20%;
       padding: 15px;
@@ -20,7 +20,7 @@
   }
 
   &--secondary {
-      display:inline-block;
+      display:block;
       margin: auto;
       width: 20%;
       padding: 15px;
@@ -36,7 +36,7 @@
   }
 
   &--disabled {
-      display:inline-block;
+      display:block;
       margin: auto;
       width: 20%;
       padding: 15px;

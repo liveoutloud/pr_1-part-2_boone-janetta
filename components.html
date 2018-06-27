@@ -27,13 +27,20 @@
     <main class="main">
       <section class="main__section">
         <h2>Components</h2>
-
         <!-- This is where your alerts go -->
         <section class="main__section">
           <h3>Alerts</h3>
           <div class="item-container">
             <!-- Make sure you include error, success and notification -->
-            <img class="image__alerts" src="images/error_alert_image.png" alt="Error alert">
+            <div class="alert--error">
+                <p class="alert--p">Oops, please try again.<img class="x-alert-boxes" src="images/x-alert-boxes.svg" alt="x" width=36px></p>
+            </div>
+            <div class="alert--success">
+                <p class="alert--p">Yay! All good here.<img class="x-alert-boxes" src="images/x-alert-boxes.svg" alt="x" width=36px></p>
+            </div>
+            <div class="alert--notification">
+                <p class="alert--p-white">You are hereby notified.<img class="x-alert-boxes" src="images/x-alert-boxes.svg" alt="x" width=36px></p>
+            </div>
           </div>
         </section>
 
@@ -42,8 +49,8 @@
           <h3>Buttons</h3>
           <div class="item-container">
             <!-- Make sure your button Primary, secondary and each have a hover state -->
-            <button class="button--primary" type="button">Primary</button>
-            <button class="button--secondary" type="button">Secondary</button>
+            <button class="button--primary" type="button">Primary</button></br>
+            <button class="button--secondary" type="button">Secondary</button></br>
             <button class="button--disabled" type="button" id="not-allowed">Disabled</button>
           </div>
         </section>
