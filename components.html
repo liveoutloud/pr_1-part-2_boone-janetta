@@ -58,13 +58,18 @@
         <!-- This is where your form elements go -->
         <section class="main__section">
           <h3>Form Elements</h3>
-          <form action="/action_page.php">
-              First name:<br>
-              <input type="text" name="firstname" value="First name here"><br>
-              Last name:<br>
-              <input type="text" name="lastname" value="Last name here"><br><br>
-              <input type="submit" value="Submit">
-            </form>
+          <form>
+              <p>Full name:</p>
+              <input type="text" name="fullname"><br>
+              <p>Oops! Please re-enter your full name:</p>
+              <input id="input_error" type="text" name="oops"><br>
+          </form>
+          <p>Please select a shipping speed:</p>
+          <select>
+              <option value="overnight">Overnight</option>
+              <option value="2-day priority">2-day priority</option>
+              <option value="7-10 business days">7-10 business days</option>
+          </select>
     <footer class="footer">
       <p class="footer__p">Copyright 2018 -- Reel Life</p>
     </footer>
