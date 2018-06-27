@@ -24,9 +24,11 @@
 
 .alert--p {
     text-align: left;
+    font-weight: bold;
 
     &-white {
         color: $white;
         text-align: left;
+        font-weight: bold;
     }
 }

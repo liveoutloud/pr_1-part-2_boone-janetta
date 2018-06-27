@@ -3,7 +3,8 @@
 ### Links
 ---
 [My repo](https://github.com/liveoutloud/pr_1-part-2_boone-janetta)
-[My site](https://) ****************
+
+[My site](https://)
 
 ### References
 ---
